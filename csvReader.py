@@ -1,5 +1,6 @@
-from datetime import datetime, date
+import datetime
 import csv
+import arrow
 
 # Python with open will auto-close after finished executing
 with open('SystemTaskstest.csv') as f:
@@ -16,7 +17,7 @@ with open('SystemTaskstest.csv') as f:
     headers_i_want = ['Task/Step', 'Start date', 'End date', 'Status']
     
     # not_included = ['ing', 'Child', 'Parent', 'Reconcile', 'devices']
-
+   
     x = 1
     for row in reader[1:]: # Skip the first row because it's the header
         if "ing" not in row[0] and "Child" not in row[0] and "Parent" not in row[0] and "Reconcile" not in row[0] and "devices" not in row[0]: 
@@ -31,7 +32,19 @@ with open('SystemTaskstest.csv') as f:
 
             for h in headers_i_want[1:]:
                 print(h, " ", row[headers[h]], end='')
+                # a = arrow.get(row[headers[h]], 'M/D/YYYY H:mm:ss a')
+                # b = arrow.get(row[headers[h]], 'M/D/YYYY H:mm:ss a')
+                
+                
+                if (h == 'Start date'):
+                    a = arrow.get(row[headers[h]], 'M/D/YYYY H:mm:ss a')
+                if (h == 'End date'):
+                    b = arrow.get(row[headers[h]], 'M/D/YYYY H:mm:ss a')
                 print()
+            delta = (b - a).total_seconds()
+            print("This job took: ", datetime.timedelta(seconds = delta))
+
+            
             ## # if headers_i_want['End date'] [row[headers[h]] 
             ## # how_long = datetime.combine(date.min, headers_i_want[2]) - datetime.combine(date.min, headers[1])
             ## # print("Time: ", how_long)
