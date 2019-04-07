@@ -2,7 +2,7 @@
 .vscode/settings.json
 SystemTaskstest.ods
 notes.txt
-.gitignore
+
 eggs.csv
 names.csv
 csvTester.py
