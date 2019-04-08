@@ -1,0 +1,12 @@
+Task/Step,Start Date,End Date,Status,Duration
+Reconciliation for IBM PVU,4/5/2019 18:27,4/5/2019 18:27,Completed,0:00:02
+FlexNet Manager Suite,4/5/2019 18:27,4/5/2019 18:27,Completed,0:00:08
+FNMPDataWarehouse,4/5/2019 16:10,4/5/2019 16:10,Completed,0:00:07
+Combined_SCCM_SN_Tanium_Test_Import,4/5/2019 15:54,4/5/2019 15:59,Completed,0:04:29
+Reconciliation,4/5/2019 2:05,4/5/2019 6:24,Completed,4:19:26
+SCCM1,4/5/2019 0:00,4/5/2019 1:18,Completed,1:18:39
+VMWare Introspection,4/4/2019 23:04,4/4/2019 23:04,In progress,0:00:02
+Full_Asset_Importer,4/4/2019 15:26,4/4/2019 15:34,Completed,0:08:15
+ARL Import,4/1/2019 1:32,4/1/2019 2:33,Completed,1:00:07
+Specific_Location,3/27/2019 15:01,3/27/2019 15:01,Completed,0:00:15
+XenDeskTop,3/13/2019 16:28,3/13/2019 16:29,Completed,0:00:53
