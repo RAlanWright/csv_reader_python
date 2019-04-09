@@ -13,7 +13,7 @@ def Average(lst):
 
 # Python with open will auto-close after finished executing
 with open('SystemTasks.csv', 'r') as f:
-    with open('Reports/VMWare.csv', 'w', newline='') as g:
+    with open('Reports/pipe_test.csv', 'w', newline='') as g:
         writer = csv.writer(g, delimiter=' ', quotechar='"')
         reader = csv.reader(f)
         reader = list(reader) # Need to convert to a list to index / slice it
@@ -33,7 +33,7 @@ with open('SystemTasks.csv', 'r') as f:
         x = 1
         deltaList = []
         for row in reader[1:]: # Skip the first row because it's the header
-            if "VMWare" in row[0]:
+            if "ARL" in row[0]:
                 if "ing" not in row[0] and "Child" not in row[0] and "Parent" not in row[0] and "Reconcile" not in row[0] and "devices" not in row[0]: 
                     print("=" * 50)
                     print(x, row[0])
@@ -50,21 +50,25 @@ with open('SystemTasks.csv', 'r') as f:
                             elif (h == 'End date'):
                                 b = arrow.get(row[headers[h]], 'M/D/YYYY H:mm:ss a')
                         except arrow.parser.ParserError as err:
+                            continue
                             print(err)
                             print("Could not parse row: ", row)
                         print()
                         
-                    if not all ((row[2], row[3])):
-                        continue
-                    else:
-                        delta = (b - a).total_seconds()
-                        deltaList.append(delta)
-                        print(deltaList)
+                    # if not all ((row[2], row[3])):
+                    #     continue
+                    # else:
+                    #     delta = (b - a).total_seconds()
+                    #     deltaList.append(delta)
+                    #     print(deltaList)
 
                     # Write every row even if some fields are empty
                     if not all((row[2], row[3])):
                         writer.writerow({'Task/Step':row[0], 'Start Date': row[2], 'End Date': row[3], 'Status': row[4]})
                     else:
+                        delta = (b - a).total_seconds()
+                        deltaList.append(delta)
+                        # print(deltaList)
                         writer.writerow({'Task/Step':row[0], 'Start Date': row[2], 'End Date': row[3], 'Status': row[4], 'Duration': datetime.timedelta(seconds = delta)})
                     
                    
@@ -73,9 +77,14 @@ with open('SystemTasks.csv', 'r') as f:
                     print("-" * 50) 
                     print()
     
-    averageDelta = round(Average(deltaList))
-    timeDeltaListAveraged = datetime.timedelta(seconds = averageDelta)
+        averageDelta = round(Average(deltaList))
+        timeDeltaListAveraged = datetime.timedelta(seconds = averageDelta)
+        writer.writerow({'Average Time': timeDeltaListAveraged})
 
-    print(timeDeltaListAveraged)
     print(deltaList)
-    print(len(deltaList))
+    print()
+    print("=" * 50)
+    print("This job has run: ", len(deltaList), " in the past 30 days.")
+    print("The average time spent on this job: ",timeDeltaListAveraged)
+    print("=" * 50)
+    print()

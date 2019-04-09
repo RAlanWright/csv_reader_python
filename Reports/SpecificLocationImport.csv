@@ -1,9 +1,10 @@
-Task/Step,Start Date,End Date,Status,Duration
-Specific_Location,3/27/2019 3:01:24 pm,3/27/2019 3:01:39 pm,Completed,0:00:15
-Specific_Location,3/26/2019 10:16:16 pm,3/26/2019 10:16:24 pm,Completed,0:00:08
-Specific_Location,3/26/2019 9:47:59 pm,3/26/2019 9:48:05 pm,Completed,0:00:06
-Specific_Location,3/26/2019 8:11:50 pm,3/26/2019 8:11:57 pm,Completed,0:00:07
-Specific_Location,3/26/2019 8:01:49 pm,3/26/2019 8:01:56 pm,Completed,0:00:07
-Specific_Location,3/26/2019 7:59:38 pm,3/26/2019 7:59:47 pm,Completed,0:00:09
-Specific_Location,3/26/2019 7:58:58 pm,3/26/2019 7:59:03 pm,Completed,0:00:05
-Specific_Location,3/26/2019 7:58:01 pm,3/26/2019 7:58:14 pm,Completed,0:00:13
+Task/Step,Start Date,End Date,Status,Duration,Average Time
+Specific_Location,3/27/2019 3:01:24 pm,3/27/2019 3:01:39 pm,Completed,0:00:15,
+Specific_Location,3/26/2019 10:16:16 pm,3/26/2019 10:16:24 pm,Completed,0:00:08,
+Specific_Location,3/26/2019 9:47:59 pm,3/26/2019 9:48:05 pm,Completed,0:00:06,
+Specific_Location,3/26/2019 8:11:50 pm,3/26/2019 8:11:57 pm,Completed,0:00:07,
+Specific_Location,3/26/2019 8:01:49 pm,3/26/2019 8:01:56 pm,Completed,0:00:07,
+Specific_Location,3/26/2019 7:59:38 pm,3/26/2019 7:59:47 pm,Completed,0:00:09,
+Specific_Location,3/26/2019 7:58:58 pm,3/26/2019 7:59:03 pm,Completed,0:00:05,
+Specific_Location,3/26/2019 7:58:01 pm,3/26/2019 7:58:14 pm,Completed,0:00:13,
+,,,,,0:00:09

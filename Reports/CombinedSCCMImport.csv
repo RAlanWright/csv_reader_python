@@ -1,11 +1,12 @@
-Task/Step,Start Date,End Date,Status,Duration
-Combined_SCCM_SN_Tanium_Test_Import,4/5/2019 3:54:46 pm,4/5/2019 3:59:15 pm,Completed,0:04:29
-Combined_SCCM_SN_Tanium_Test_Import,4/5/2019 2:50:25 pm,4/5/2019 2:52:51 pm,Completed,0:02:26
-Combined_SCCM_SN_Tanium_Test_Import,4/5/2019 2:39:30 pm,4/5/2019 2:44:08 pm,Completed,0:04:38
-Combined_SCCM_SN_Tanium_Test_Import,4/4/2019 6:05:45 pm,4/4/2019 6:08:13 pm,Completed,0:02:28
-Combined_SCCM_SN_Tanium_Test_Import,4/4/2019 3:59:19 pm,4/4/2019 4:04:15 pm,Completed,0:04:56
-Combined_SCCM_SN_Tanium_Test_Import,4/1/2019 3:52:31 pm,4/1/2019 3:54:04 pm,Completed,0:01:33
-Combined_SCCM_SN_Tanium_Test_Import,4/1/2019 3:50:55 pm,4/1/2019 3:51:01 pm,Failed,0:00:06
-Combined_SCCM_SN_Tanium_Test_Import,4/1/2019 3:49:31 pm,4/1/2019 3:49:38 pm,Failed,0:00:07
-Combined_SCCM_SN_Tanium_Test_Import,3/25/2019 7:01:13 pm,3/25/2019 7:01:19 pm,Completed,0:00:06
-Combined_SCCM_SN_Tanium_Test_Import,3/25/2019 6:31:22 pm,3/25/2019 6:31:29 pm,Completed,0:00:07
+Task/Step,Start Date,End Date,Status,Duration,Average Time
+Combined_SCCM_SN_Tanium_Test_Import,4/5/2019 3:54:46 pm,4/5/2019 3:59:15 pm,Completed,0:04:29,
+Combined_SCCM_SN_Tanium_Test_Import,4/5/2019 2:50:25 pm,4/5/2019 2:52:51 pm,Completed,0:02:26,
+Combined_SCCM_SN_Tanium_Test_Import,4/5/2019 2:39:30 pm,4/5/2019 2:44:08 pm,Completed,0:04:38,
+Combined_SCCM_SN_Tanium_Test_Import,4/4/2019 6:05:45 pm,4/4/2019 6:08:13 pm,Completed,0:02:28,
+Combined_SCCM_SN_Tanium_Test_Import,4/4/2019 3:59:19 pm,4/4/2019 4:04:15 pm,Completed,0:04:56,
+Combined_SCCM_SN_Tanium_Test_Import,4/1/2019 3:52:31 pm,4/1/2019 3:54:04 pm,Completed,0:01:33,
+Combined_SCCM_SN_Tanium_Test_Import,4/1/2019 3:50:55 pm,4/1/2019 3:51:01 pm,Failed,0:00:06,
+Combined_SCCM_SN_Tanium_Test_Import,4/1/2019 3:49:31 pm,4/1/2019 3:49:38 pm,Failed,0:00:07,
+Combined_SCCM_SN_Tanium_Test_Import,3/25/2019 7:01:13 pm,3/25/2019 7:01:19 pm,Completed,0:00:06,
+Combined_SCCM_SN_Tanium_Test_Import,3/25/2019 6:31:22 pm,3/25/2019 6:31:29 pm,Completed,0:00:07,
+,,,,,0:02:06
