@@ -10,7 +10,7 @@ Computer Role1 - Matched = 8108, Created = 1, Updated = 0, Rejected = 0
 Computer - Matched = 2752, Created = 5508, Updated = 2752, Rejected = 202066
 Asset - Matched = 209351, Created = 0, Updated = 209185, Rejected = 3
 Asset/Computer - Matched = 0, Created = 0, Updated = 0, Rejected = 0","No"
-"Gathering business data","Business import","4/5/2019 3:54:37 pm","4/5/2019 3:54:37 pm","Completed","Business data saved as E:\ProgramData\Flexera Software\Beacon\IntermediateData\B[S=Combined_SCCM_SN_Tanium_Test_Import]_20190405155435.zip
+"Gathering business data","Business import","4/5/2019 3:54:37 pm","4/5/2019 3:54:37 pm","Completed","Business data saved as E:\ProgramData\File\Location\Step\B[S=Combined_SCCM_SN_Tanium_Test_Import]_20190405155435.zip
 File size: 2.86 MB","Yes"
 "Uploading to Application Server","Business import","4/5/2019 3:54:38 pm","4/5/2019 3:54:41 pm","Completed","Uploaded B[S=Combined_SCCM_SN_Tanium_Test_Import]_20190405155435.zip successfully","No"
 "Importing into application server","Business import","4/5/2019 3:54:46 pm","4/5/2019 3:59:15 pm","Completed","Location - Matched = 16872, Created = 0, Updated = 0, Rejected = 0
@@ -34,8 +34,8 @@ Total beacon(s) reported: 1
   Beacon(s) completed: 1
   Beacon(s) completed with error: 0
   Beacon(s) timed out: 0","No"
-"vwn04584 - Parent Beacon","Discovery and inventory rule","","","Scheduled","","No"
-"uwn2008 - Child Beacon","Discovery and inventory rule","4/4/2019 11:04:26 pm","4/4/2019 11:04:28 pm","Completed","","No"
+"scrubbed1 - Parent Beacon","Discovery and inventory rule","","","Scheduled","","No"
+"scrubbed2 - Child Beacon","Discovery and inventory rule","4/4/2019 11:04:26 pm","4/4/2019 11:04:28 pm","Completed","","No"
 "Performing discovery","Discovery and inventory rule","4/4/2019 11:04:26 pm","4/4/2019 11:04:26 pm","Completed","Total discovered devices: 0
 Oracle database servers discovered: -
 Oracle virtual servers discovered: -
@@ -50,7 +50,7 @@ Devices failed to be inventoried: 0","Yes"
 "Full_Asset_Importer","Business import","4/4/2019 3:26:31 pm","4/4/2019 3:34:46 pm","Completed","Asset Status1 - Matched = 209857, Created = 6, Updated = 0, Rejected = 0
 Asset - Matched = 6535, Created = 203653, Updated = 6502, Rejected = 3
 Asset/Computer - Matched = 54527, Created = 149296, Updated = 54527, Rejected = 0","No"
-"Gathering business data","Business import","4/4/2019 3:26:19 pm","4/4/2019 3:26:22 pm","Completed","Business data saved as E:\ProgramData\Flexera Software\Beacon\IntermediateData\B[S=Full_Asset_Importer]_20190404152621.zip
+"Gathering business data","Business import","4/4/2019 3:26:19 pm","4/4/2019 3:26:22 pm","Completed","Business data saved as E:\ProgramData\File\Location\Step\B[S=Full_Asset_Importer]_20190404152621.zip
 File size: 1.94 MB","Yes"
 "Uploading to Application Server","Business import","4/4/2019 3:26:22 pm","4/4/2019 3:26:25 pm","Completed","Uploaded B[S=Full_Asset_Importer]_20190404152621.zip successfully","No"
 "Importing into application server","Business import","4/4/2019 3:26:31 pm","4/4/2019 3:34:45 pm","Completed","Asset Status1 - Matched = 209857, Created = 6, Updated = 0, Rejected = 0
@@ -59,7 +59,7 @@ Asset/Computer - Matched = 54527, Created = 149296, Updated = 54527, Rejected = 
 "ARL Import","ARL import","4/1/2019 1:32:59 am","4/1/2019 2:33:06 am","Completed","ARL imported successfully","No"
 "ARL importing","ARL import","4/1/2019 1:33:00 am","4/1/2019 2:33:06 am","Completed","ARL imported successfully","No"
 "Specific_Location","Business import","3/27/2019 3:01:24 pm","3/27/2019 3:01:39 pm","Completed","Location - Matched = 0, Created = 16872, Updated = 10938, Rejected = 0","No"
-"Gathering business data","Business import","3/27/2019 3:01:19 pm","3/27/2019 3:01:21 pm","Completed","Business data saved as E:\ProgramData\Flexera Software\Beacon\IntermediateData\B[S=Specific_Location]_20190327150121.zip
+"Gathering business data","Business import","3/27/2019 3:01:19 pm","3/27/2019 3:01:21 pm","Completed","Business data saved as E:\ProgramData\File\Location\Step\B[S=Specific_Location]_20190327150121.zip
 File size: 163.79 KB","Yes"
 "Uploading to Application Server","Business import","3/27/2019 3:01:21 pm","3/27/2019 3:01:23 pm","Completed","Uploaded B[S=Specific_Location]_20190327150121.zip successfully","No"
 "Importing into application server","Business import","3/27/2019 3:01:24 pm","3/27/2019 3:01:39 pm","Completed","Location - Matched = 0, Created = 16872, Updated = 10938, Rejected = 0","Yes"
@@ -69,7 +69,7 @@ Total beacon(s) reported: 1
   Beacon(s) completed: 1
   Beacon(s) completed with error: 0
   Beacon(s) timed out: 0","No"
-"vwn04584 - Parent Beacon","Discovery and inventory rule","3/13/2019 4:28:59 pm","3/13/2019 4:29:52 pm","Completed","","No"
+"scrubbed1 - Parent Beacon","Discovery and inventory rule","3/13/2019 4:28:59 pm","3/13/2019 4:29:52 pm","Completed","","No"
 "Performing discovery","Discovery and inventory rule","3/13/2019 4:29:52 pm","3/13/2019 4:29:52 pm","Completed","Total discovered devices: 1
 Oracle database servers discovered: -
 Oracle virtual servers discovered: -
